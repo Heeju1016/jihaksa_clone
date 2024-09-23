@@ -1,0 +1,27 @@
+.FixedBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+
+    .FixedBtn1 {
+        display: inline-block;
+        padding: 30px 30px; /* 버튼 내부 여백 */
+        background-color: rgb(255, 204, 0); /* 버튼 배경색 */
+        color: white; /* 글자색 */
+        border-radius: 50%; /* 둥근 모서리 */
+        text-decoration: none; /* 링크 기본 스타일 제거 */
+        margin: 5px;
+    }
+    .FixedBtn2 {
+        display: inline-block;
+        padding: 30px 30px; /* 버튼 내부 여백 */
+        background-color: rgb(248, 247, 246); /* 버튼 배경색 */
+        color: white; /* 글자색 */
+        border-radius: 50%; /* 둥근 모서리 */
+        text-decoration: none; /* 링크 기본 스타일 제거 */
+        margin: 5px;
+    }
+}

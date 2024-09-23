@@ -1,0 +1,52 @@
+.Section1Wrap {
+
+    .section1 {
+        .TxtBox {
+            margin-left: 70px;
+            .FtGia {
+                font-size: 5em;
+                font-weight: 800;
+            }
+            .FtGia1 {
+                margin-top: 50px;
+                font-size: 1.5em;
+            }
+        }
+        .SlideContainer {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 100px;
+            margin-bottom: 200px;
+            .MprSlide {
+                width: 450px;
+                height: 600px;
+                margin-top: 50px;
+                margin-left: 80px;
+                .MprSwiper {
+                    font-size: 1.6em;
+                    margin-top: 40px;
+                    p {
+                        margin-bottom: -3px;
+                    }
+                }
+    
+                .TitBox {
+                    .FtOut {
+                        font-size: 1.5em;
+                        font-weight: 800;
+                    }
+                }
+    
+            }
+            .MvSlide {
+                width: 1250px;
+
+                .RoundedImg {
+                    border-radius: 45% 10% 0 0;
+                }
+
+            }
+        }
+        
+    }
+}
